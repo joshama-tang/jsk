@@ -1,0 +1,97 @@
+.info {
+    display: flex;
+    width: 100%;
+    background-color: #93CD5D;
+    color: white;
+    font-size: small;
+    height: 50px;
+    align-items: center;
+
+}
+
+.info .item {
+    display: flex;
+    padding: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info .item .email-item .link-email {
+    color: black;
+}
+
+.info .timer {
+    padding: 20px 100px;
+    display: flex;
+    gap: 500px;
+    margin: 0;
+}
+
+.info .timer .number-time-item .number-link {
+    color: black;
+
+}
+
+.info .timer .contact-info .time {
+    color: black;
+}
+
+.info .inter-icon {
+    color: black;
+}
+
+.info .inter-icon .main-icon {
+    display: flex;
+
+}
+
+.info .inter-icon .main-icon {
+    gap: 20px;
+}
+
+.info .inter-icon .main-icon .para {
+    color: black;
+}
+
+
+@media screen and (max-width: 1400px) {
+
+
+    .info .item {
+        align-items: center;
+
+    }
+
+    .info .timer {
+        gap: 0;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .info .item {
+        padding: 0;
+    }
+
+    .info .timer {
+        width: 100%;
+        left: 0;
+        right: 0;
+        gap: 0;
+        flex-direction: column;
+
+    }
+
+    .info .inter-icon .main-icon {
+
+        display: none;
+    }
+
+}

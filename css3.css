@@ -1,0 +1,72 @@
+.Africa {
+    color: #93CD5D;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    display: flex;
+}
+
+.Africa .head1 {
+    font-size: medium;
+    position: sticky;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 50px;
+}
+
+.Africa .head1 .read_more {
+    color: white;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.Africa .head1 .head2 .reads {
+    color: #d63637;
+    font-style: italic;
+
+}
+
+.Africa .head1 .head2 .reads .read {
+    color: #d63637;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.Africa .button1 {
+    height: 30px;
+    width: 80px;
+    background-color: #93CD5D;
+    text-align: center;
+    color: blue;
+    border: #93CD5D 1px solid;
+    position: relative;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.30);
+
+}
+
+.Africa .button1 .bb2 {
+    cursor: pointer;
+    color: white;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .Africa {
+        height: 100%;
+        transition: 0.2s ease;
+    }
+
+    .Africa .head1 {
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        right: 0;
+        padding-left: 10px;
+
+
+
+    }
+}
